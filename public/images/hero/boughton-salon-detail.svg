@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E7EA" />
+      <stop offset="100%" stop-color="#E6D0D6" />
+    </linearGradient>
+    <linearGradient id="hairMainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9A6F5A" />
+      <stop offset="45%" stop-color="#5A3D31" />
+      <stop offset="100%" stop-color="#2D1D18" />
+    </linearGradient>
+    <linearGradient id="mirrorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8E9EB" />
+      <stop offset="100%" stop-color="#EED5DB" />
+    </linearGradient>
+    <radialGradient id="softGlow" cx="75%" cy="22%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Studio Canvas Backdrop -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#softGlow)" />
+
+  <!-- Editorial Border Hairline -->
+  <rect x="24" y="24" width="752" height="952" fill="none" stroke="#342A2D" stroke-opacity="0.12" stroke-width="1" />
+
+  <!-- Top Editorial Plate Header -->
+  <text x="52" y="66" font-family="Manrope, sans-serif" font-size="13" font-weight="600" letter-spacing="2.5" fill="#817278">
+    LOOKBOOK 02 · COLOUR &amp; RESTYLE
+  </text>
+  <text x="748" y="66" text-anchor="end" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="16" fill="#A65C73">
+    The Hairdressers · Boughton
+  </text>
+
+  <!-- Central Art-Directed Hair / Salon Composition -->
+  
+    <!-- Editorial Studio Arch Framing -->
+    <path d="M 170 800 L 170 340 A 230 230 0 0 1 630 340 L 630 800 Z"
+          fill="#FFFFFF" opacity="0.52" stroke="#EED5DB" stroke-width="2" />
+    <!-- Crown & Silhouette Volume -->
+    <ellipse cx="400" cy="420" rx="175" ry="215" fill="url(#hairMainGrad)" opacity="0.95" />
+    <!-- Multi-tonal Hand-Painted Balayage & Gloss Ribbons -->
+    
+      <path d="M 324.4 250
+               C 178 370,
+                 286 490,
+                 169 600
+               C 252.4 680,
+                 188.2 740,
+                 223.6 770"
+            stroke="#9A6F5A"
+            stroke-width="22"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 337 250
+               C 206 370,
+                 314 490,
+                 201.2 600
+               C 286 680,
+                 219 740,
+                 253 770"
+            stroke="#2D1D18"
+            stroke-width="14"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 349.6 250
+               C 234 370,
+                 342 490,
+                 233.40000000000003 600
+               C 319.6 680,
+                 249.79999999999995 740,
+                 282.4 770"
+            stroke="#5A3D31"
+            stroke-width="22"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 362.2 250
+               C 262 370,
+                 370 490,
+                 265.59999999999997 600
+               C 353.2 680,
+                 280.6 740,
+                 311.8 770"
+            stroke="#9A6F5A"
+            stroke-width="14"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 374.8 250
+               C 290 370,
+                 398 490,
+                 297.8 600
+               C 386.8 680,
+                 311.4 740,
+                 341.2 770"
+            stroke="#5A3D31"
+            stroke-width="22"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 387.4 250
+               C 318 370,
+                 426 490,
+                 330 600
+               C 420.4 680,
+                 342.2 740,
+                 370.6 770"
+            stroke="#2D1D18"
+            stroke-width="14"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 400 250
+               C 346 370,
+                 454 490,
+                 362.2 600
+               C 454 680,
+                 373 740,
+                 400 770"
+            stroke="#9A6F5A"
+            stroke-width="22"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 412.6 250
+               C 374 370,
+                 482 490,
+                 394.4 600
+               C 487.6 680,
+                 403.8 740,
+                 429.4 770"
+            stroke="#2D1D18"
+            stroke-width="14"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 425.2 250
+               C 402 370,
+                 510 490,
+                 426.59999999999997 600
+               C 521.2 680,
+                 434.6 740,
+                 458.8 770"
+            stroke="#5A3D31"
+            stroke-width="22"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 437.8 250
+               C 430 370,
+                 538 490,
+                 458.8 600
+               C 554.8 680,
+                 465.4 740,
+                 488.2 770"
+            stroke="#9A6F5A"
+            stroke-width="14"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 450.4 250
+               C 458 370,
+                 566 490,
+                 490.99999999999994 600
+               C 588.4 680,
+                 496.20000000000005 740,
+                 517.6 770"
+            stroke="#5A3D31"
+            stroke-width="22"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 463 250
+               C 486 370,
+                 594 490,
+                 523.2 600
+               C 622 680,
+                 527 740,
+                 547 770"
+            stroke="#2D1D18"
+            stroke-width="14"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+      <path d="M 475.6 250
+               C 514 370,
+                 622 490,
+                 555.4000000000001 600
+               C 655.6 680,
+                 557.8 740,
+                 576.4 770"
+            stroke="#9A6F5A"
+            stroke-width="22"
+            stroke-linecap="round"
+            fill="none"
+            opacity="0.9" />
+    
+    <!-- Natural Studio Catchlight Sheen -->
+    <ellipse cx="355" cy="365" rx="95" ry="28" transform="rotate(-14 355 365)" fill="#9A6F5A" opacity="0.45" />
+    <ellipse cx="435" cy="505" rx="110" ry="32" transform="rotate(12 435 505)" fill="#9A6F5A" opacity="0.38" />
+  
+
+  <!-- Bottom Editorial Caption Scrim & Plate Details -->
+  <rect x="24" y="852" width="752" height="124" fill="#FFFAF9" fill-opacity="0.92" />
+  <line x1="24" y1="852" x2="776" y2="852" stroke="#342A2D" stroke-opacity="0.1" stroke-width="1" />
+
+  <text x="52" y="908" font-family="Cormorant Garamond, Georgia, serif" font-size="28" font-weight="600" fill="#342A2D">
+    Colour Refresh &amp; Precision Layered Restyle
+  </text>
+  <text x="52" y="942" font-family="DM Sans, sans-serif" font-size="14" fill="#817278" letter-spacing="0.5">
+    Hair by Jaimeleigh · Boughton
+  </text>
+</svg>

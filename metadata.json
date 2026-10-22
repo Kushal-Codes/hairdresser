@@ -1,0 +1,6 @@
+{
+  "name": "The Hairdressers — Boughton, Chester",
+  "description": "Boutique hair salon and barbering studio at 92 Boughton, Chester (CH3 5AQ). Specialist colour, lived-in balayage, restyles, blow-dries, and precision cuts. Call 01244 319991.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="960" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFECEB" />
+      <stop offset="100%" stop-color="#DCD5D3" />
+    </linearGradient>
+    <linearGradient id="hairMainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#63534E" />
+      <stop offset="45%" stop-color="#3A302D" />
+      <stop offset="100%" stop-color="#1E1816" />
+    </linearGradient>
+    <linearGradient id="mirrorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8E9EB" />
+      <stop offset="100%" stop-color="#EED5DB" />
+    </linearGradient>
+    <radialGradient id="softGlow" cx="75%" cy="22%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Studio Canvas Backdrop -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#softGlow)" />
+
+  <!-- Editorial Border Hairline -->
+  <rect x="24" y="24" width="912" height="672" fill="none" stroke="#342A2D" stroke-opacity="0.12" stroke-width="1" />
+
+  <!-- Top Editorial Plate Header -->
+  <text x="52" y="66" font-family="Manrope, sans-serif" font-size="13" font-weight="600" letter-spacing="2.5" fill="#817278">
+    ARCHIVE 07 · MEN’S GROOMING
+  </text>
+  <text x="908" y="66" text-anchor="end" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="16" fill="#A65C73">
+    The Hairdressers · Boughton
+  </text>
+
+  <!-- Central Art-Directed Hair / Salon Composition -->
+  
+      <!-- Refined Masculine Tailored Barbering Silhouette -->
+      <circle cx="480" cy="331.2" r="237.60000000000002" fill="#FFFFFF" opacity="0.55"/>
+      <path d="M 340 491.2 C 335 371.2, 355 241.2, 480 221.2 C 605 241.2, 625 371.2, 620 491.2 Z" fill="#E6DCD8"/>
+      <!-- Textured Scissor-Over-Comb Crown -->
+      <path d="M 345 311.2 C 335 201.2, 420 146.2, 495 156.2 C 585 166.2, 625 226.2, 612 316.2 C 575 266.2, 415 256.2, 345 311.2 Z" fill="url(#hairMainGrad)"/>
+      <!-- Precision Tapered Texture Lines -->
+      <path d="M 375 236.2 Q 460 176.2 565 221.2" stroke="#63534E" stroke-width="4" fill="none" opacity="0.75" stroke-linecap="round"/>
+      <path d="M 395 211.2 Q 490 161.2 585 206.2" stroke="#1E1816" stroke-width="3" fill="none" opacity="0.85" stroke-linecap="round"/>
+      <path d="M 360 271.2 Q 450 216.2 575 256.2" stroke="#63534E" stroke-width="3" fill="none" opacity="0.65" stroke-linecap="round"/>
+    
+
+  <!-- Bottom Editorial Caption Scrim & Plate Details -->
+  <rect x="24" y="572" width="912" height="124" fill="#FFFAF9" fill-opacity="0.92" />
+  <line x1="24" y1="572" x2="936" y2="572" stroke="#342A2D" stroke-opacity="0.1" stroke-width="1" />
+
+  <text x="52" y="628" font-family="Cormorant Garamond, Georgia, serif" font-size="28" font-weight="600" fill="#342A2D">
+    Gents’ Scissor &amp; Clipper Tailored Cut
+  </text>
+  <text x="52" y="662" font-family="DM Sans, sans-serif" font-size="14" fill="#817278" letter-spacing="0.5">
+    Gents Cuts by Jaimeleigh · 92 Boughton
+  </text>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF2F0" />
+      <stop offset="100%" stop-color="#EADAD7" />
+    </linearGradient>
+    <linearGradient id="hairMainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EED5DB" />
+      <stop offset="45%" stop-color="#A65C73" />
+      <stop offset="100%" stop-color="#342A2D" />
+    </linearGradient>
+    <linearGradient id="mirrorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8E9EB" />
+      <stop offset="100%" stop-color="#EED5DB" />
+    </linearGradient>
+    <radialGradient id="softGlow" cx="75%" cy="22%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Studio Canvas Backdrop -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#softGlow)" />
+
+  <!-- Editorial Border Hairline -->
+  <rect x="24" y="24" width="1232" height="672" fill="none" stroke="#342A2D" stroke-opacity="0.12" stroke-width="1" />
+
+  <!-- Top Editorial Plate Header -->
+  <text x="52" y="66" font-family="Manrope, sans-serif" font-size="13" font-weight="600" letter-spacing="2.5" fill="#817278">
+    92 BOUGHTON · CHESTER CH3 5AQ
+  </text>
+  <text x="1228" y="66" text-anchor="end" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="16" fill="#A65C73">
+    The Hairdressers · Boughton
+  </text>
+
+  <!-- Central Art-Directed Hair / Salon Composition -->
+  
+      <!-- Architectural Salon Interior Mirrors & Stations -->
+      <rect x="102.4" y="86.39999999999999" width="1075.2" height="518.4" rx="8" fill="#FFFAF9" opacity="0.65" stroke="#D8C2C8" stroke-width="1.5"/>
+      <!-- Arched Mirror 1 -->
+      <path d="M 230.39999999999998 532.8 L 230.39999999999998 244.8 A 140.8 140.8 0 0 1 512 244.8 L 512 532.8 Z" fill="url(#mirrorGrad)" stroke="#C98F9E" stroke-width="2.5"/>
+      <!-- Arched Mirror 2 -->
+      <path d="M 588.8000000000001 532.8 L 588.8000000000001 244.8 A 140.8 140.8 0 0 1 870.4000000000001 244.8 L 870.4000000000001 532.8 Z" fill="url(#mirrorGrad)" stroke="#C98F9E" stroke-width="2.5"/>
+      <!-- Ceramic Console Shelf -->
+      <rect x="192" y="453.6" width="716.8000000000001" height="10" rx="5" fill="#342A2D" opacity="0.8"/>
+      <!-- Botanical Vessel & Warm Coffee Cup -->
+      <ellipse cx="998.4000000000001" cy="475.20000000000005" rx="34" ry="52" fill="#A65C73" opacity="0.85"/>
+      <path d="M 998.4000000000001 446.4 Q 921.5999999999999 302.4 844.8000000000001 230.4" stroke="#817278" stroke-width="2.5" fill="none"/>
+      <path d="M 998.4000000000001 446.4 Q 1049.6 288 1100.8 201.60000000000002" stroke="#A65C73" stroke-width="2.5" fill="none"/>
+      <circle cx="870.4000000000001" cy="244.8" r="14" fill="#EED5DB"/>
+      <circle cx="1088" cy="216" r="18" fill="#C98F9E" opacity="0.6"/>
+    
+
+  <!-- Bottom Editorial Caption Scrim & Plate Details -->
+  <rect x="24" y="572" width="1232" height="124" fill="#FFFAF9" fill-opacity="0.92" />
+  <line x1="24" y1="572" x2="1256" y2="572" stroke="#342A2D" stroke-opacity="0.1" stroke-width="1" />
+
+  <text x="52" y="628" font-family="Cormorant Garamond, Georgia, serif" font-size="28" font-weight="600" fill="#342A2D">
+    A Welcoming, Unhurried Studio Atmosphere in Boughton
+  </text>
+  <text x="52" y="662" font-family="DM Sans, sans-serif" font-size="14" fill="#817278" letter-spacing="0.5">
+    Friendly Stylists · Personal Consultations · Great Coffee
+  </text>
+</svg>
